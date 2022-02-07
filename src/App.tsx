@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Button, Content } from 'carbon-components-react';
+import React from 'react';
+import { Content } from 'carbon-components-react';
 import HeaderB from './components/HeaderB';
 import './App.scss';
 
