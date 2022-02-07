@@ -37,6 +37,7 @@ const HeaderB = () => (
         </HeaderName>
         <HeaderNavigation aria-label="Carbon Tutorial">
           <HeaderMenuItem<LinkProps> element={Link} to="/repos">Repositories</HeaderMenuItem>
+          <HeaderMenuItem<LinkProps> element={Link} to="/login">Login</HeaderMenuItem>
         </HeaderNavigation>
         <SideNav
           aria-label="Side navigation"

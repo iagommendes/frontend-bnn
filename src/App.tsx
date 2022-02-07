@@ -6,6 +6,7 @@ import './App.scss';
 import { Route, Switch } from 'react-router-dom';
 import DashboardPage from './content/Dashboard';
 import ProvedoresPage from './content/Provedores';
+import LoginPage from './content/Login';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={DashboardPage} />
           <Route path="/repos" component={ProvedoresPage} />
+          <Route path="/login" component={LoginPage} />
         </Switch>
       </ Content> 
     </>

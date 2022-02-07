@@ -3,7 +3,7 @@ import React from "react";
 const ProvedoresPage = () => {
     return (
         <div>
-        <h1>Propvvv</h1>
+        <h1>Tabela</h1>
         </div>
     );
     }
