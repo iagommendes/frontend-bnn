@@ -1,0 +1,123 @@
+
+  .container-itens {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #00000029;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    margin: 1rem;
+    background-color: #fdca00;
+    width: 250px;
+    height: 165px;
+  }
+  
+  .card-status {
+    margin: 1rem;
+    background-color: #ffffff;
+    width: 300px;
+    height: 155px;
+  }
+  
+  .card-status h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #151100e1;
+    opacity: 1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card-status-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+  }
+  
+  .card-titles {
+    margin: 1rem;
+    text-align: right;
+  }
+  
+  .card-titles :first-child {
+    font-size: 36px;
+  }
+  
+  .card-titles :last-child {
+    font-size: 20px;
+  }
+  
+  Button {
+    width: 100%;
+  }
+  
+  .days-left {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .days-left :first-child {
+    font-size: 0.8rem;
+    color: #43425dc7;
+    font-weight: initial;
+  }
+  
+  .days-left :last-child {
+    font-size: 35px;
+    color: #43425d;
+    font-weight: bolder;
+  }
+  
+  .payment-info {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .payment-info p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #43425dc7;
+    font-weight: initial;
+  }
+  
+  .square-icon {
+    width: 38px;
+    background-color: #3b86ff;
+    height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #3b86ff;
+    margin-left: 0.5rem;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,106 @@
+.container-news {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.news-title {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #f2f2f2;
+  background: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding-left: 0.8rem;
+  align-content: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.news-feed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  background: #fff;
+}
+
+.feed :nth-child(1) {
+    margin-top: 1rem;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.nf1 {
+    padding-top: 1rem;
+}
+
+.news-subtitle {
+    font-weight: 600;
+    color: #5c5c5c;
+}
+
+.news-detail {
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.news span {
+  font-weight: 400;
+  color: #767676;
+}
+
+.chips {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.chips span {
+  background: #ff000061;
+  color: #ff3001;
+  font-weight: bold;
+  margin: 0.2rem;
+  padding: 0.3rem;
+  font-size: 0.7rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.line-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-disc {
+    width: 42px;
+    height: 42px;
+    background: #C9F3E1;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotted-divisor {
+    background: transparent;
+    height: 89px;
+    width: 1px;
+    border-left: dotted 2px #c3c3c3;
+}
+
+.icon-disc svg {
+    width: 20px;
+    height: 20px;
+    fill: #7CE0B4;
+}
